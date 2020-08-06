@@ -37,7 +37,7 @@ function Setup-ZooKeeperForSsl
 function Configure-ZooKeeperForSsl
 {
 	param(
-		[string]$targetFolder = "C:\SolrCloud",
+		[string]$targetFolder = "C:\\install\\SolrCloud",
 		[string]$solrFolderName = "SOLR",
 		[string]$zkConnection = "localhost:2971"
 	)
